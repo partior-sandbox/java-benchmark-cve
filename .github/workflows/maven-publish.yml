@@ -46,9 +46,9 @@ jobs:
         tool: spotbugs
         upload: true
 
-      - name: Upload SARIF results file
-        uses: github/codeql-action/upload-sarif@v1
-        with:
-          sarif_file: results.sarif
+    - name: Upload SARIF results file
+      uses: github/codeql-action/upload-sarif@v1
+      with:
+        sarif_file: results.sarif
 
 
