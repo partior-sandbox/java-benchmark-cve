@@ -4,8 +4,10 @@
 name: Maven Package
 
 on:
-  push: [ main ]
-  pull_request: [ feature/** ]        
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ feature/** ]        
 
 jobs:
   build:
