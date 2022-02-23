@@ -5,7 +5,7 @@
 .settings/
 .idea/
 *.iml
-
+results.sarif
 data/out.csv
 reports/
 scripts/SonarQubeCredentials.sh
